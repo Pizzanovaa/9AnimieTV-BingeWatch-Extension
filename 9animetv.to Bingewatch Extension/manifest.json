@@ -1,0 +1,20 @@
+﻿{
+  "manifest_version": 3,
+  "name": "9AnimeTV Universal Toolkit",
+  "version": "3.0",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.9animetv.to/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ]
+}
