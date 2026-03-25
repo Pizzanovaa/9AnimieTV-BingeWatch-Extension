@@ -19,6 +19,7 @@ Find your folder:
 👉 Click the folder itself (not the files inside)
 
 Click Select Folder
+
 5. Done ✅
 The extension should now appear in the list
 
