@@ -21,6 +21,7 @@ Find your folder:
 Click Select Folder
 5. Done ✅
 The extension should now appear in the list
+
 🔄 Final step (IMPORTANT)
 Go to your website
 Press F5 (refresh)
